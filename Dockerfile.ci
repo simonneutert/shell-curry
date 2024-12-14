@@ -30,18 +30,14 @@ RUN mkdir -p ${TARGET_FOLDER}
 RUN cd /app
 RUN bundle exec jekyll clean
 RUN bundle exec jekyll build --source /app --destination ${TARGET_FOLDER}
-RUN bundle exec jekyll build --source /app --destination ${TARGET_FOLDER}
 
-# to nicer cache layers, we copy the static files to a new folder
 RUN cp -r ${TARGET_FOLDER} ${TARGET_FOLDER}-static
-# and remove the bigger files from the original folder
-RUN rm -rf ${TARGET_FOLDER}/assets;
 
 FROM nginx:1-alpine-slim AS server
 
 ENV SOURCE_FOLDER=/app/server-dist
 
-COPY --from=builder ${SOURCE_FOLDER}-static/img/ /usr/share/nginx/html/assets
+COPY --from=builder ${SOURCE_FOLDER}-static/assets/ /usr/share/nginx/html/assets
 
 COPY --from=builder ${SOURCE_FOLDER}/ /usr/share/nginx/html
 COPY --from=builder ${SOURCE_FOLDER} /usr/share/nginx/html
