@@ -1,0 +1,58 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.authors.size > 0 -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+            <li>
+              Imprint:<br/>Simon Neutert, Postfach 1120, 55258 Ingelheim
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+        {%- if site.github_usernames.size > 0 -%}
+        <h4>Maintainers</h4>
+        {%- assign maintainers = site.github_usernames | sort -%}
+    {%- for github_username in maintainers | sort -%}
+        <li>
+            <a href="https://github.com/{{ github_username| cgi_escape | escape }}">
+                <svg class="svg-icon">
+                    <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}">
+                    </use>
+                </svg>
+                <span class="username">{{ github_username| escape }}</span>
+            </a>
+        </li>
+        {%- endfor -%}
+        {%- endif -%}
+        </ul>
+        {% comment %}
+        {%- include social.html -%}
+        {% endcomment %}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
