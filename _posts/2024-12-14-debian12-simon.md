@@ -14,6 +14,7 @@ Here's what you will end up with:
 - asdf-vm to manage your languages
 - zsh-syntax-highlighting
 - zsh-autosuggestions
+- zsh-autocomplete
 - nerd-fonts firacode
 - direnv
 - nodejs
@@ -24,6 +25,10 @@ Here's what you will end up with:
 - lsd for a colorful `ls`
 - duc for a modern `du`
 - duf for a modern `df`
+
+## End Result
+
+The completed zshrc and zsh_aliases files can be found at the end of this guide.
 
 ## A word of warning
 
@@ -185,6 +190,26 @@ $ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugg
 $ echo 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
 ```
 
+### zsh-autocomplete
+
+This will automagically show options and help.
+
+```bash
+$ git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git ~/.zsh/zsh-autocomplete;
+```
+
+```bash
+$ echo "source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh" >> ~/.zshrc
+```
+
+Then force reload the current shell:
+
+```bash
+$ exec zsh
+```
+
+Try typing: `cp -r` 
+
 ## Install some tools
 
 bat, btop, lsd, duc, duf
@@ -258,6 +283,7 @@ eval "$(starship init zsh)"
 source "$HOME/.asdf/asdf.sh"
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 eval "$(zoxide init zsh)"
 eval "$(direnv hook zsh)"
