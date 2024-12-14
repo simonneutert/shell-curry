@@ -189,3 +189,9 @@
   github: Canop/bacon
   short: background code checker (for rust)
   category: dev
+
+- name: zellij
+  github: zellij-org/zellij
+  short: A terminal workspace with batteries included
+  category: multiplexer
+  alternatives: [tmux]

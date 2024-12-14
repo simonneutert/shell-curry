@@ -33,7 +33,7 @@ And more importantly, please don't just copy and paste the commands. Go visit th
 
 ---
 
-Time to spice up your terminal! 🌶️🍛
+Time to spice up your terminal! 🌶️ 🍛
 
 ---
 

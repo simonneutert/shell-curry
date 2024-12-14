@@ -35,7 +35,9 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            <span class="mark" style="padding: 0.2rem 1.5rem 0.2rem 1rem">{{ post.title | escape }}</span>
+            <span class="mark" style="padding: 0.2rem 1.5rem 0.2rem 1rem">
+              {{ post.title | escape }}
+            </span>
           </a>
         </h3>
         {%- if site.show_excerpts -%}
