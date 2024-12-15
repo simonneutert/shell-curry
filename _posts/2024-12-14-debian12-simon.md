@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setup Debian 12 Example"
+title:  "Example Setup with Debian 12"
 date:   2024-12-13 14:54:12 +0100
 author: "@simonneutert"
 ---

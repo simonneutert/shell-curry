@@ -12,7 +12,7 @@ As this is a Jekyll site, you should read the [Jekyll documentation](https://jek
 
 All the tools are stored in the `_data/tools.yml` file.
 
-The categories can be determined by the `category` field in the YAML file - or when browsing to `localhost:4000/rack`.
+The categories can be determined by the `category` field in the YAML file - or when browsing to `localhost:4000/rack.html`.
 
 ## Run the development server
 
