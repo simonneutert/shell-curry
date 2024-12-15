@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog Posts
+description: "Blog for an opinionated list of cli tools from software developers for software developers."
 ---
 
 <style>

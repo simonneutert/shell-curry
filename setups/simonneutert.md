@@ -2,6 +2,7 @@
 layout: page
 title: Simon's Setup
 navignore: true
+description: "@simonneutert's rack of shell tools."
 ---
 
 ### Preferred Terminal
