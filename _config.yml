@@ -43,8 +43,14 @@ plugins:
 
 header_pages:
   # - setups/index.md # soon to come
+  - posts.md
   - rack.md
   - about.md
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:year/:month/:day/:title:output_ext
 
 # Exclude from processing.
 # The following items will not be processed, by default.
