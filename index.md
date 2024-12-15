@@ -43,7 +43,7 @@ To us it's a never-ending side-quest. <span class="mark">Nothing we lose hours o
 
 <hr>
 
-<a href="/rack" style="text-align: center; display: block; padding: 1rem; color: pink; background-color: #616161;">
+<a href="/rack.html" style="text-align: center; display: block; padding: 1rem; color: pink; background-color: #616161;">
   👉 Browse the Tools 👈
 </a>
 
