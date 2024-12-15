@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tool Rack
+description: "An opinionated list of cli tools from software developers for software developers."
 ---
 
 {%- if site.data.tools.size > 0 -%}

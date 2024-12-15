@@ -5,6 +5,7 @@
 layout: home
 # title: Tool Rack
 list_title: Blog Posts
+description: "Rice desktops and spice up your shell! An opinionated list of cli tools from software developers for software developers."
 ---
 
 <style>
