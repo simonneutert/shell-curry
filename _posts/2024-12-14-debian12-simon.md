@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Example Setup with Debian 12"
-date:   2024-12-13 14:54:12 +0100
+date:   2024-12-14 14:54:12 +0100
 author: "@simonneutert"
 ---
 
