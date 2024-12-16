@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-description: "Rice desktops and spice up your shell! An opinionated list of cli tools from software developers for software developers."
+description: "Rice your desktop and spice up your shell! An opinionated list of CLI tools from software developers for software developers."
 ---
 
 We are the current active maintainers of this website:
