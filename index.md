@@ -29,7 +29,13 @@ description: "Rice desktops and spice up your shell! An opinionated list of cli 
 }
 </style>
 
-This website is an opinionated list of tools and software we, as software developers, use on a daily basis.
+This website is an opinionated list of tools and software we, as software developers, use on a daily basis.\
+
+> Why, though? \
+> There's [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) on GitHub!
+
+Yes, there is. But it can be overwhelming! \
+We curate our list of tools, so you can be sure they work and are put to use daily.
 
 <div style="text-align: center">
     <h2 class="power-header mark">Rice desktops and spice up the shells!</h2>
