@@ -68,7 +68,7 @@ Oh and icons in your terminal? Yes, please!
 
 As a bonus, <span class="mark">we maintain a list with stuff</span> that makes us use the search engine from time to time. Like, when we're setting up a new machine. One thing would be switching from bash to zsh, for example.
 
-<a href="/faqfaq" style="text-align: center; display: block; padding: 1rem; color: pink; background-color: #313131;">
+<a href="/faqfaq.html" style="text-align: center; display: block; padding: 1rem; color: pink; background-color: #313131;">
   ⁉️ The FAQ-List 💡
 </a>
 

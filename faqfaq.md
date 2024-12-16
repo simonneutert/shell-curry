@@ -1,4 +1,5 @@
 ---
+layout: page
 title: FAQ (we ask the web)
 description: "A list of questions we ask the web from time to time. Like, how to switch from bash to zsh."
 ---
