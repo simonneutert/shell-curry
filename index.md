@@ -29,7 +29,7 @@ description: "Rice your desktop and spice up your shell! An opinionated list of 
 }
 </style>
 
-This website is an opinionated list of tools and software that we, as software developers, use on a daily basis.\
+This website is an opinionated list of tools and software that we, as software developers, use on a daily basis.
 
 <div style="text-align: center">
     <h2 class="power-header mark">Rice your desktops and spice up the shells!</h2>
