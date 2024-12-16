@@ -48,9 +48,9 @@ Here, you'll find our curated list of tools, so you can be sure they work well a
 Having the best developer setup is a never-ending crusade for some.<br>
 To others, it's not even a side quest.<br>
 In HR, they label it as one of the dark arts.<br>
-To us, it's nothing <span class="mark">we lose hours on</span>, but something we always come back to.
+<span class="mark">To us, it's nothing we lose hours on</span>, but something we always come back to.
 
-<span class="mark">With practicality in mind</span>, we want to share our findings with you. We are a group of developers who love to tinker—always with a purpose. Each of our setups differs here and there, but there are huge overlaps in the tools we use.
+We want to share our findings with you, <span class="mark">with practicality in mind</span>. We are a group of developers who love to tinker—always with a purpose. Each of our setups differs here and there, but there are huge overlaps in the tools we use.
 
 <hr>
 
