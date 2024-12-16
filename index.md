@@ -29,24 +29,28 @@ description: "Rice desktops and spice up your shell! An opinionated list of cli 
 }
 </style>
 
-This website is an opinionated list of tools and software we, as software developers, use on a daily basis.\
-
-> Why, though? \
-> There's [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) on GitHub!
-
-Yes, there is. But it can be overwhelming! \
-We curate our list of tools, so you can be sure they work and are put to use daily.
+This website is an opinionated list of tools and software that we, as software developers, use on a daily basis.\
 
 <div style="text-align: center">
     <h2 class="power-header mark">Rice desktops and spice up the shells!</h2>
 </div>
 
-The quest for a glorious developer setup is a never-ending journey - to some.<br>
-To others, it's not even a side-quest.<br>
-HR calls it one of the dark arts.<br>
-To us it's a never-ending side-quest. <span class="mark">Nothing we lose hours on</span>, but something we always come back to.
+<br />
+---
 
-<span class="mark">With practicality in mind</span>, we want to share our findings with you. We are a group of developers who love to tinker - but always with a purpose. Each of our setups differ here and there, but there are huge overlaps in the tools we use.
+> But, there's [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) on GitHub?!
+
+We know, and it's awesome—but it is a very, very long list! \
+Here, you'll find our curated list of tools, so you can be sure they work well and are put to use regularly.
+
+---
+
+Having the best developer setup is a never-ending crusade for some.<br>
+To others, it's not even a side quest.<br>
+In HR, they label it as one of the dark arts.<br>
+To us, it's nothing <span class="mark">we lose hours on</span>, but something we always come back to.
+
+<span class="mark">With practicality in mind</span>, we want to share our findings with you. We are a group of developers who love to tinker—always with a purpose. Each of our setups differs here and there, but there are huge overlaps in the tools we use.
 
 <hr>
 
@@ -56,8 +60,8 @@ To us it's a never-ending side-quest. <span class="mark">Nothing we lose hours o
 
 <hr>
 
-When you followed and finished an example setup, the `tab` key will have superpowers (hit it, baby!), \
-`ctrl+r` will melt your heart (it will already, if you didn't know) \
+When you follow and finish an example setup, the `tab` key will have superpowers (hit it, baby!), \
+`ctrl+r` will melt your heart (it already will if you didn't know), \
 and colors will please your eyes.
 
 Oh and icons in your terminal? Yes, please!
@@ -66,7 +70,7 @@ Oh and icons in your terminal? Yes, please!
 
 <hr>
 
-As a bonus, <span class="mark">we maintain a list with stuff</span> that makes us use the search engine from time to time. Like, when we're setting up a new machine. One thing would be switching from bash to zsh, for example.
+As a bonus, <span class="mark">we maintain a list of stuff</span> that makes us use the search engine from time to time. Like when we're setting up a new machine. One example would be switching from bash to zsh.
 
 <a href="/faqfaq.html" style="text-align: center; display: block; padding: 1rem; color: pink; background-color: #313131;">
   ⁉️ The FAQ-List 💡
