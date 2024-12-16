@@ -15,7 +15,7 @@ Here's what you will end up with:
 - `zsh-syntax-highlighting`
 - `zsh-autosuggestions`
 - `zsh-autocomplete`
-- `nerd-fonts Firacode
+- `nerd-fonts` Firacode
 - `direnv`
 - `nodejs`
 - `just` for a modern `make`
