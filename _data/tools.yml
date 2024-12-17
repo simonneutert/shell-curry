@@ -96,7 +96,7 @@
 - name: bat
   github: sharkdp/bat
   short: A cat(1) clone with wings.
-  category: system
+  category: view
 
 - name: htmlq
   github: mgdm/htmlq
@@ -195,3 +195,8 @@
   short: A terminal workspace with batteries included
   category: multiplexer
   alternatives: [tmux]
+
+- name: glow
+  github: charmbracelet/glow
+  short: Render markdown on the CLI, with pizzazz! 💅🏻
+  category: view
