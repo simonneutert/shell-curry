@@ -4,23 +4,6 @@ title: Blog Posts
 description: "Blog for an opinionated list of cli tools from software developers for software developers."
 ---
 
-<style>
-  .mark {
-    margin: 0 -0.4em;
-    padding: 0.1em 0.4em;
-    border-radius: 0.8em 0.3em;
-    background: transparent;
-    background-image: linear-gradient(
-      to right,
-      rgba(255, 225, 0, 0.1),
-      rgba(255, 0, 187, 0.7) 4%,
-      rgba(255, 225, 0, 0.3)
-    );
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-  }
-</style>
-
 {%- if site.posts.size > 0 -%}
   <h2 class="post-list-heading">{{ page.list_title | default: "Tool Rack" }}</h2>
   <ul class="post-list">

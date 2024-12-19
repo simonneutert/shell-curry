@@ -8,31 +8,10 @@ list_title: Blog Posts
 description: "Rice your desktop and spice up your shell! An opinionated list of CLI tools from software developers for software developers."
 ---
 
-<style>
-.mark {
-  margin: 0 -0.4em;
-  padding: 0.1em 0.4em;
-  border-radius: 0.8em 0.3em;
-  background: transparent;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 225, 0, 0.1),
-    rgba(255, 0, 187, 0.7) 4%,
-    rgba(255, 225, 0, 0.3)
-  );
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-
-.power-header {
-  transform: rotate(-0.0025turn); padding: 0.2rem 1.5rem; color: #000000; text-shadow: #e0e0e0 1px 1px 0; border-radius: 0.5rem; background-color: #f0f0f0; display: inline-block;
-}
-</style>
-
 This website is an opinionated list of tools and software that we, as software developers, use on a daily basis.
 
 <div style="text-align: center">
-    <h2 class="power-header mark">Rice your desktops and spice up the shells!</h2>
+  <h2 class="power-header mark">Rice your desktops and spice up the shells!</h2>
 </div>
 
 <br />
