@@ -35,7 +35,7 @@ This will install all the software listed in your `Brewfile`.
 
 ### Linuxbrew? Really? Why?
 
-Linuxbrew, the Linux port of Homebrew, is a package manager that simplifies the installation of software on Linux. It allows users to install programs without requiring root permissions, making it ideal for environments where administrative access is limited. With Linuxbrew, software is installed in the user’s home directory, ensuring a clean and customizable setup. It also handles dependencies automatically and offers a vast collection of up-to-date packages, making it a convenient choice for developers, system admins, and hobbyists.
+[Linuxbrew, the Linux port of Homebrew](https://docs.brew.sh/Homebrew-on-Linux), is a package manager that simplifies the installation of software on Linux. It allows users to install programs without requiring root permissions, making it ideal for environments where administrative access is limited. With Linuxbrew, software is installed in the user’s home directory, ensuring a clean and customizable setup. It also handles dependencies automatically and offers a vast collection of up-to-date packages, making it a convenient choice for developers, system admins, and hobbyists.
 
 - No Root Permissions Needed: Install software without requiring administrative access.
 - User-Friendly: Easy to use, with commands that are straightforward and consistent.
