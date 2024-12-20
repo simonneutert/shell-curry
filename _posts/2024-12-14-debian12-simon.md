@@ -176,7 +176,7 @@ Time for some `zsh` plugins!
 This plugin highlights commands as you type them.
 
 ```bash
-$ sudo apt intall zsh-syntax-highlighting
+$ sudo apt install zsh-syntax-highlighting
 $ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
 
