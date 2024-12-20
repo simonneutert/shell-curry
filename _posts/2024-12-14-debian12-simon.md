@@ -280,6 +280,8 @@ setopt hist_ignore_dups
 setopt hist_ignore_space
 setopt autocd
 
+export PATH="$HOME/.local/bin:$PATH"
+
 eval "$(starship init zsh)"
 source "$HOME/.asdf/asdf.sh"
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
