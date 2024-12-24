@@ -282,12 +282,12 @@ setopt autocd
 
 export PATH="$HOME/.local/bin:$PATH"
 
-eval "$(starship init zsh)"
 source "$HOME/.asdf/asdf.sh"
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
+eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(direnv hook zsh)"
 
