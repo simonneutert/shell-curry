@@ -39,7 +39,7 @@ This will install all the software listed in your `Brewfile`.
 
 - No Root Permissions Needed: Install software without requiring administrative access.
 - User-Friendly: Easy to use, with commands that are straightforward and consistent.
-- Customizable Setup: Installs programs in the user’s home directory, avoiding system-wide changes.
+- Customizable Setup: Installs programs in the user's home directory, avoiding system-wide changes.
 - Automatic Dependency Management: Handles dependencies seamlessly, saving time and effort.
 - Extensive Package Collection: Provides access to a large repository of up-to-date software.
 - Cross-Platform Consistency: Familiar to users of macOS Homebrew, enabling an easier transition.
