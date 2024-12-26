@@ -88,6 +88,11 @@
   short: "A more intuitive version of 'du' in rust"
   category: system
 
+- name: duc
+  github: zevv/duc
+  short: "Dude, where are my bytes: Duc, a library and suite of tools for inspecting disk usage"
+  category: system
+
 - name: duf
   github: muesli/duf
   short: Disk Usage/Free Utility - a better 'df' alternative
