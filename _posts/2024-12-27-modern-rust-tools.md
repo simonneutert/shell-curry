@@ -14,11 +14,11 @@ Some of these tools are built with [Ratatui](https://ratatui.rs), a TUI framewor
 
 - [tui-journal](https://github.com/AmmarAbouZor/tui-journal) Your journal app if you live in a terminal
 - [repgrep](https://github.com/acheronfail/repgrep) An interactive replacer for ripgrep that makes it easy to find and replace across files on the command line.
-- [serie] (https://github.com/lusingander/serie) A rich git commit graph in your terminal, like magic 📚
-- [rainfrog] (https://github.com/achristmascarl/rainfrog) 🐸 a database management tui for postgres. mysql and sqlite are also supported, but they are currently unstable (end of 2024)
-- [netscanner] (https://github.com/Chleba/netscanner) Terminal Network scanner & diagnostic tool with modern TUI
-- [glim] (https://github.com/junkdog/glim) A TUI for monitoring GitLab CI/CD pipelines and projects
-- [atac] (https://github.com/Julien-cpsn/ATAC) A simple API client (postman like) in your terminal
+- [serie](https://github.com/lusingander/serie) A rich git commit graph in your terminal, like magic 📚
+- [rainfrog](https://github.com/achristmascarl/rainfrog) 🐸 a database management tui for postgres. mysql and sqlite are also supported, but they are currently unstable (end of 2024)
+- [netscanner](https://github.com/Chleba/netscanner) Terminal Network scanner & diagnostic tool with modern TUI
+- [glim](https://github.com/junkdog/glim) A TUI for monitoring GitLab CI/CD pipelines and projects
+- [atac](https://github.com/Julien-cpsn/ATAC) A simple API client (postman like) in your terminal
 
 - [aichat](https://github.com/sigoden/aichat) All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI tools & agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.
 - [btm](https://github.com/rust-util-collections/btm) Blockchain time machine
