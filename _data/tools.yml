@@ -28,10 +28,17 @@
   short: 🤖 Just a command runner
   category: runner
 
+- name: mise
+  github: jdx/mise
+  short: dev tools, env vars, task runner
+  category: version-manager
+  alternatives: [asdf-vm]
+
 - name: asdf-vm
   github: asdf-vm/asdf
   short: Extendable programming language version manager with support for Ruby, Node.js, Elixir, Erlang & more
   category: version-manager
+  alternatives: [mise]
 
 - name: gh
   github: cli/cli
