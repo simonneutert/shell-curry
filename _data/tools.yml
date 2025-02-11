@@ -3,6 +3,11 @@
   short: ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
   category: style
 
+- name: difftastic
+  github: wilfred/difftastic
+  short: a structural diff that understands syntax 🟥🟩
+  category: data-processing
+
 - name: direnv
   github: direnv/direnv
   short: direnv is an extension for your shell. It augments existing shells with a new feature that can load and unload environment variables depending on the current directory.
