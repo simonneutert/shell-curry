@@ -13,6 +13,6 @@ where they tackled mise's concept of security - was when I knew, I had to try.
 And, well, as harsh as it may sound, but:
 
 > ASDF, farewell old friend, you were the successor of [rvm](https://rvm.io) and
-> all good things come to an end. \
+> all good things come to an end.
 
 `mise` will take over from now on my machines.
