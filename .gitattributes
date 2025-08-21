@@ -1,0 +1,8 @@
+*.html linguist-vendored
+*.htm linguist-vendored
+*.md linguist-vendored
+*.markdown linguist-vendored
+*.yaml linguist-vendored
+*.yml linguist-vendored
+
+assets/* linguist-vendored

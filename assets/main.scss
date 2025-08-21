@@ -1,0 +1,29 @@
+---
+---
+
+@import "minima";
+
+.mark {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(255, 0, 187, 0.7) 4%,
+    rgba(255, 225, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.power-header {
+  transform: rotate(-0.0025turn);
+  padding: 0.2rem 1.5rem;
+  color: #000000;
+  text-shadow: #e0e0e0 1px 1px 0;
+  border-radius: 0.5rem;
+  background-color: #f0f0f0;
+  display: inline-block;
+}

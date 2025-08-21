@@ -1,0 +1,234 @@
+- name: starship
+  github: starship/starship
+  short: ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+  category: style
+
+- name: difftastic
+  github: wilfred/difftastic
+  short: a structural diff that understands syntax 🟥🟩
+  category: data-processing
+
+- name: direnv
+  github: direnv/direnv
+  short: direnv is an extension for your shell. It augments existing shells with a new feature that can load and unload environment variables depending on the current directory.
+  category: system
+
+- name: zoxide
+  github: ajeetdsouza/zoxide
+  short: A smarter cd command. Supports all major shells.
+  category: system
+
+- name: atuin
+  github: atuinsh/atuin
+  short: ✨ Magical shell history
+  category: system
+
+- name: jq
+  github: jqlang/jq
+  short: Command-line JSON processor
+  category: data-processing
+
+- name: just
+  github: casey/just
+  short: 🤖 Just a command runner
+  category: runner
+
+- name: mise
+  github: jdx/mise
+  short: dev tools, env vars, task runner
+  category: version-manager
+  alternatives: [asdf-vm]
+
+- name: asdf-vm
+  github: asdf-vm/asdf
+  short: Extendable programming language version manager with support for Ruby, Node.js, Elixir, Erlang & more
+  category: version-manager
+  alternatives: [mise]
+
+- name: gh
+  github: cli/cli
+  short: GitHub's official command line tool
+  category: quality-of-life
+
+- name: croc
+  github: schollz/croc
+  short: Easily and securely send things from one computer to another 🐊 📦
+  category: p2p
+
+- name: fx
+  github: antonmedv/fx
+  short: Terminal JSON viewer & processor
+  category: data-processing
+
+- name: httpie
+  github: httpie/cli
+  short: 🥧 HTTPie CLI — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
+  category: web
+
+- name: axel
+  github: axel-download-accelerator/axel
+  short: Lightweight CLI download accelerator
+  category: web
+
+- name: hyperfine
+  github: sharkdp/hyperfine
+  short: A command-line benchmarking tool
+  category: system
+
+- name: ripgrep
+  github: BurntSushi/ripgrep
+  short: ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+  category: text
+
+- name: fd
+  github: sharkdp/fd
+  short: A simple, fast and user-friendly alternative to 'find'
+  category: system
+
+- name: sq
+  github: neilotoole/sq
+  short: "sq is a command line tool that provides jq-style access to structured data sources: SQL databases, or document formats like CSV or Excel."
+  category: data-processing
+
+- name: vhs
+  github: charmbracelet/vhs
+  short: Write terminal GIFs as code for integration testing and demoing your CLI tools.
+  category: demoing
+
+- name: dust
+  github: bootandy/dust
+  short: "A more intuitive version of 'du' in rust"
+  category: system
+
+- name: duc
+  github: zevv/duc
+  short: "Dude, where are my bytes: Duc, a library and suite of tools for inspecting disk usage"
+  category: system
+
+- name: duf
+  github: muesli/duf
+  short: Disk Usage/Free Utility - a better 'df' alternative
+  category: system
+
+- name: bat
+  github: sharkdp/bat
+  short: A cat(1) clone with wings.
+  category: view
+
+- name: nyan
+  github: toshimaru/nyan
+  short: Colorizing `cat` command.
+  category: view
+
+- name: htmlq
+  github: mgdm/htmlq
+  short: Like jq, but for HTML.
+  category: data-processing
+
+- name: sd
+  github: chmln/sd
+  short: Intuitive find & replace CLI (sed alternative)
+  category: text
+
+- name: xq
+  github: sibprogrammer/xq
+  short: Command-line XML and HTML beautifier and content extractor
+  category: data-processing
+
+- name: jc
+  github: kellyjonbrazil/jc
+  short: CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
+  category: data-processing
+
+- name: jet
+  github: borkdude/jet
+  short: CLI to transform between JSON, EDN, YAML and Transit using Clojure
+  category: data-processing
+
+- name: glab
+  github: gl-cli/glab
+  short: GitLab command line tool
+  category: quality-of-life
+
+- name: cq
+  github: markus-wa/cq
+  short: "Clojure Query: A Command-line Data Processor for JSON, YAML, EDN, XML and more"
+  category: data-processing
+
+- name: eza
+  github: eza-community/eza
+  short: A modern alternative to ls
+  category: system
+  alternatives: [lsd]
+
+- name: rb
+  github: thisredone/rb
+  short: Turns Ruby into a versatile command line utility
+  category: data-processing
+
+- name: btop
+  github: aristocratos/btop
+  short: A monitor of resources
+  category: system
+
+- name: lazygit
+  github: jesseduffield/lazygit
+  short: simple terminal UI for git commands
+  category: quality-of-life
+
+- name: lazydocker
+  github: jesseduffield/lazydocker
+  short: The lazier way to manage everything docker
+  category: quality-of-life
+
+- name: yazi
+  github: sxyazi/yazi
+  short: 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
+  category: file-management
+
+- name: lsd
+  github: lsd-rs/lsd
+  short: The next gen ls command
+  category: system
+  alternatives: [eza]
+
+- name: tldr
+  github: tldr-pages/tldr
+  short: 📚 Collaborative cheatsheets for console commands
+  category: helper
+
+- name: jj
+  github: martinvonz/jj
+  short: A Git-compatible VCS that is both simple and powerful
+  category: vcs
+
+- name: helix
+  github: helix-editor/helix
+  short: A post-modern modal text editor.
+  category: text-editor
+
+- name: bacon
+  github: Canop/bacon
+  short: background code checker (for rust)
+  category: dev
+
+- name: zellij
+  github: zellij-org/zellij
+  short: A terminal workspace with batteries included
+  category: multiplexer
+  alternatives: [tmux]
+
+- name: glow
+  github: charmbracelet/glow
+  short: Render markdown on the CLI, with pizzazz! 💅🏻
+  category: view
+
+- name: golang-petname
+  github: dustinkirkland/golang-petname
+  short: an RFC1178 implementation to generate pronounceable, sometimes even memorable, "pet names", consisting of a random combination of adverbs, an adjective, and an animal name
+  category: helper
+
+- name: rust-petname
+  github: allenap/rust-petname
+  short: Generate human readable random names. Rust port of Dustin Kirkland's petname library.
+  category: helper

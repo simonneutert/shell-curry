@@ -1,0 +1,3 @@
+FROM nginx:1-alpine-slim
+
+COPY server-dist/ /usr/share/nginx/html

@@ -1,0 +1,5 @@
+- name: kitty
+  github: kovidgoyal/kitty
+
+- name: ghostty
+  github: ghostty-org/ghostty

@@ -1,0 +1,11 @@
+- name: zsh-autocomplete
+  url: marlonrichert/zsh-autocomplete
+
+- name: zsh-syntax-highlighting
+  url: zsh-users/zsh-syntax-highlighting
+
+- name: zsh-completions
+  url: zsh-users/zsh-completions
+
+- name: zsh-autosuggestions
+  url: zsh-users/zsh-autosuggestions
