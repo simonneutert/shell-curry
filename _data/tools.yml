@@ -223,6 +223,11 @@
   short: Render markdown on the CLI, with pizzazz! 💅🏻
   category: view
 
+- name: presenterm
+  github: mfontanini/presenterm
+  short: A markdown terminal slideshow tool
+  category: presentation
+
 - name: golang-petname
   github: dustinkirkland/golang-petname
   short: an RFC1178 implementation to generate pronounceable, sometimes even memorable, "pet names", consisting of a random combination of adverbs, an adjective, and an animal name
