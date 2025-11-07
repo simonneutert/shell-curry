@@ -8,6 +8,11 @@
   short: a structural diff that understands syntax 🟥🟩
   category: data-processing
 
+- name: Soft-Serve
+  url: charmbracelet/soft-serve
+  description: "A self-hosted Git server with a TUI for managing repositories, users, and access."
+  category: version-control
+
 - name: direnv
   github: direnv/direnv
   short: direnv is an extension for your shell. It augments existing shells with a new feature that can load and unload environment variables depending on the current directory.
