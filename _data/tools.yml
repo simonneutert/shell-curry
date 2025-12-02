@@ -242,3 +242,8 @@
   github: allenap/rust-petname
   short: Generate human readable random names. Rust port of Dustin Kirkland's petname library.
   category: helper
+
+- name: elia
+  github: darrenburns/elia
+  short: A snappy, keyboard-centric terminal user interface for interacting with large language models.
+  category: ai
