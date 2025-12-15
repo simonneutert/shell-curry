@@ -1,3 +1,8 @@
+- name: hashcards
+  github: eudoxia0/hashcards
+  short: A tool for managing hashtagged notes using a card-based system.
+  category: learning
+
 - name: starship
   github: starship/starship
   short: ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
