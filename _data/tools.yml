@@ -14,7 +14,7 @@
   category: data-processing
 
 - name: Soft-Serve
-  url: charmbracelet/soft-serve
+  github: charmbracelet/soft-serve
   description: "A self-hosted Git server with a TUI for managing repositories, users, and access."
   category: version-control
 
