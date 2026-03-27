@@ -1,3 +1,8 @@
+- name: treemd
+  github: https://github.com/Epistates/treemd
+  short: A (TUI/CLI) markdown navigator with tree-based structural navigation.
+  category: [quality-of-life view text]
+
 - name: hashcards
   github: eudoxia0/hashcards
   short: A tool for managing hashtagged notes using a card-based system.
