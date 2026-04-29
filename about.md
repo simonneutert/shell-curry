@@ -11,7 +11,7 @@ We are the current active maintainers of this website:
 
     {%- if site.github_usernames.size > 0 -%}
         {%- assign maintainers = site.github_usernames | sort -%}
-        {%- for github_username in maintainers | sort -%}
+        {%- for github_username in maintainers -%}
             <li>
                 <a href="https://github.com/{{ github_username| cgi_escape | escape }}">
                     <svg class="svg-icon">
