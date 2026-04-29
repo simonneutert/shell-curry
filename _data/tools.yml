@@ -1,12 +1,18 @@
+- name: xh
+  github: ducaale/xh
+  short: A friendly and fast tool for sending HTTP requests.
+  category: web
+  alternatives: [httpie]
+
 - name: t
-  github: https://github.com/alecthomas/t
+  github: alecthomas/t
   short: A concise language for manipulating text, replacing common usage patterns of Unix utilities like grep, sed, cut, awk, sort, and uniq.
-  category: ["text", "data-processing"]
+  category: data-processing
 
 - name: treemd
-  github: https://github.com/Epistates/treemd
+  github: Epistates/treemd
   short: A (TUI/CLI) markdown navigator with tree-based structural navigation.
-  category: ["view", "text"]
+  category: view
 
 - name: hashcards
   github: eudoxia0/hashcards
@@ -84,6 +90,7 @@
   github: httpie/cli
   short: 🥧 HTTPie CLI — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
   category: web
+  alternatives: [xh]
 
 - name: axel
   github: axel-download-accelerator/axel
