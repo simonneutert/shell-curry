@@ -1,0 +1,14 @@
+name: Package Registry Cleanup
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  - name: ghcr.io cleanup action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dataaxiom/ghcr-cleanup-action@v1
+        with:
+          dry-run: true
+          older-than: 6 months
