@@ -114,7 +114,7 @@
 
 - name: sq
   github: neilotoole/sq
-  short: "sq is a command line tool that provides jq-style access to structured data sources: SQL databases, or document formats like CSV or Excel."
+  short: "A command line tool that provides jq-style access to structured data sources: SQL databases, or document formats like CSV or Excel."
   category: data-processing
 
 - name: vhs
