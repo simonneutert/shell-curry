@@ -1,7 +1,12 @@
+- name: t
+  github: https://github.com/alecthomas/t
+  short: A concise language for manipulating text, replacing common usage patterns of Unix utilities like grep, sed, cut, awk, sort, and uniq.
+  category: ["text", "data-processing"]
+
 - name: treemd
   github: https://github.com/Epistates/treemd
   short: A (TUI/CLI) markdown navigator with tree-based structural navigation.
-  category: [quality-of-life view text]
+  category: ["view", "text"]
 
 - name: hashcards
   github: eudoxia0/hashcards
